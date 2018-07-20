@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<!-- See also https://docs.joomla.org/Deploying_an_Update_Server -->
+	<update>
+		<name>mod_twbirthdays</name>
+		<description>Module to show the birthday of members in the current week</description>
+		<maintainer>Pierre Veelen</maintainer>
+		<maintainerurl>http://www.pvln.nl</maintainerurl>
+		<element>mod_twbirthdays</element>
+		<type>module</type>
+		<client>0</client>
+		<version>1.0.2</version>
+		<infourl title="This Weeks Birthday module">http://pvln.nl</infourl>
+		<downloads>
+			<downloadurl type="upgrade" format="zip">http://update.pvln.nl/joomla/modules/thisweeks/mod_twbirthdays_v1.0.2.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3" />
+	</update>
+			
+</updates>
