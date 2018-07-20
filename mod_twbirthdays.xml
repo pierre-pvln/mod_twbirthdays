@@ -85,7 +85,7 @@
 			type="extension"
 			priority="1"
 			name="This Weeks Birthdays module updates">
-			http://update.pvln.nl/joomla/modules/thisweeks/birthdays/twbirthdays.xml
+			http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_twbirthdays.xml
 		</server>
 
     </updateservers>
