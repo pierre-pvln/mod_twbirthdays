@@ -1,5 +1,5 @@
 ---
-#  This Week Birthdays module changelog
+#  Changelog Module: This Weeks Birthdays module
 ---
 <h4>v.1.0.2 2018-07-19</h4>
 <ul>
