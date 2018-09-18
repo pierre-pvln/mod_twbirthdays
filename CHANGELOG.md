@@ -1,6 +1,11 @@
 ---
-#  Changelog Module: This Weeks Birthdays module
+#  Changelog Module: This Weeks Birthdays
 ---
+<h4>v.1.0.3 2018-09-18</h4>
+<ul>
+<li>filenames renamed to new standard structure</li>
+</ul>
+
 <h4>v.1.0.2 2018-07-19</h4>
 <ul>
 <li>Download and Update server changed</li>

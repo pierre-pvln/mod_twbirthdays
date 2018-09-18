@@ -2,17 +2,17 @@
 <updates>
 	<!-- See also https://docs.joomla.org/Deploying_an_Update_Server -->
 	<update>
-		<name>mod_twbirthdays</name>
+		<name>mod_thisweeksbirthdays</name>
 		<description>Module to show the birthday of members in the current week</description>
 		<maintainer>Pierre Veelen</maintainer>
 		<maintainerurl>http://www.pvln.nl</maintainerurl>
-		<element>mod_twbirthdays</element>
+		<element>mod_thisweeksbirthdays</element>
 		<type>module</type>
 		<client>0</client>
-		<version>1.0.2</version>
+		<version>1.0.3</version>
 		<infourl title="This Weeks Birthday module">http://www.pvln.nl/this-weeks-birthdays</infourl>
 		<downloads>
-			<downloadurl type="upgrade" format="zip">http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_twbirthdays_v1.0.2.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays_v1.0.3.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="3" />
 	</update>

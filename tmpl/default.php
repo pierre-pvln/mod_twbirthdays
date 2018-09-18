@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package     mod_twbirthdays
+ * @package     mod_thisweeksbirthdays
  * @author      Pierre Veelen, www.pvln.nl
  * @copyright   Copyright (C) 2015 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
@@ -38,7 +38,7 @@
 						  ."&nbsp;&nbsp;&nbsp;";
 				}		
 			endforeach;
-			$birthdayticker = $birthdayticker."<b>".JText::_('MOD_TWBIRTHDAYS_CONGRATS')."</b> ";
+			$birthdayticker = $birthdayticker."<b>".JText::_('MOD_THISWEEKSBIRTHDAYS_CONGRATS')."</b> ";
 			
 			/* ticker text */
 			echo "<marquee scrollamount=".$params->get("tickerscrollamount").">".$birthdayticker." </marquee>";
@@ -60,7 +60,7 @@
 						."</br>" ;	
 				}		
 			endforeach;
-			$birthdaylist = $birthdaylist."<b>".JText::_('MOD_TWBIRTHDAYS_CONGRATS')."</b> ";
+			$birthdaylist = $birthdaylist."<b>".JText::_('MOD_THISWEEKSBIRTHDAYS_CONGRATS')."</b> ";
 			
 			/* list text */
 			echo $birthdaylist;
@@ -69,7 +69,7 @@
 
 	else /* no birthdays found in current week */
 		{
-		echo JText::_('MOD_TWBIRTHDAYS_NO_BIRTHDAYS');
+		echo JText::_('MOD_THISWEEKSBIRTHDAYS_NO_BIRTHDAYS');
 		}	
 ?>
 	

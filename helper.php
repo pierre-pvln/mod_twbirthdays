@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package     mod_twbirthdays
+ * @package     mod_thisweeksbirthdays
  * @author      Pierre Veelen, www.pvln.nl
  * @copyright   Copyright (C) 2015 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
@@ -11,13 +11,13 @@
 defined('_JEXEC') or die;
 
 /**
- * Helper for mod_twbirthdays
+ * Helper for mod_thisweeksbirthdays
  */
 
-abstract class ModTWBirthdaysHelper
+abstract class ModThisWeeksBirthdaysHelper
 {
     /**
-     * The class ModTWBirthdaysHelper gets a list of Community Builder members who's birthday is in the current week
+     * The class ModThisWeeksBirthdaysHelper gets a list of Community Builder members who's birthday is in the current week
      *
      **/
 	 

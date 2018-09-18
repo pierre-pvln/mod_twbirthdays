@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package     mod_twbirthdays
+ * @package     mod_thisweeksbirthdays
  * @author      Pierre Veelen, www.pvln.nl
  * @copyright   Copyright (C) 2015 Pierre Veelen. All rights reserved.
  * @license     GNU General Public License version 2 or later.
@@ -20,7 +20,7 @@ defined('_JEXEC') or die;
  * 			Not used in this one yet (for future use).
  *
  */
-	$list = ModTWBirthdaysHelper::getItems($params);
+	$list = ModThisWeeksBirthdaysHelper::getItems($params);
  	
 /**
  * Get layout values from back-end setting tab advanced in $params 
