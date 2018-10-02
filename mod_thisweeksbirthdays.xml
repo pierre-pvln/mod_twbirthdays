@@ -3,27 +3,30 @@
 <!-- basic information -->
 <extension
     version="3.0"
-	type="module"
-	client="site"
-	method="upgrade">
-    <name>MOD_THISWEEKSBIRTHDAYS</name>
+    type="module"
+    client="site"
+    method="upgrade">
+    <!-- see also https://docs.joomla.org/Manifest_files -->
+
+    <!-- The name is optional and defaults to the name; translatable field -->
+    <name>MOD_THISWEEKSBIRTHDAYS_XML_NAME</name>
+
+    <!-- The description is optional and defaults to the name; translatable field -->
+    <description>MOD_THISWEEKSBIRTHDAYS_XML_DESCRIPTION</description>
 
     <!-- The following metadata elements are optional and free of formatting constraints -->    
     <author>Pierre Veelen</author>
     <authorEmail>pierre@pvln.nl</authorEmail>
-    <authorUrl>http://www.pvln.nl/this-weeks-birthdays</authorUrl>
-    <creationDate>19 Juli 2018</creationDate>
+    <authorUrl>https://www.pvln.nl/this-weeks-birthdays</authorUrl>
+    <creationDate>30 september 2018</creationDate>
     <copyright>Copyright (C) 2018 by Pierre Veelen. All rights reserved.</copyright>
     <license>GNU General Public License version 2</license>
-	
-	<!--  The version string is recorded in the #__extensions table -->
-    <version>1.0.3</version>
 
-	<!-- The description is optional and defaults to the name; translatable field -->
-    <description>MOD_THISWEEKSBIRTHDAYS_XML_DESCRIPTION</description>
+    <!--  The version string is recorded in the #__extensions table -->
+    <version>1.0.4</version>
 
-	<!-- the internal name of the component. If omitted, name will be cleaned and used -->
-	<element>thisweeksbirthdays</element>																					 
+    <!-- the internal name of the component. If omitted, name will be cleaned and used -->
+    <element>thisweeksbirthdays</element>
     
     <!-- files and folders used by this module -->
     <files>
@@ -37,28 +40,28 @@
     
     <!-- additional fields to be configured in joomla back-end for this module-->  
     <config>
-	<fields name="params" >
+    <fields name="params" >
 		<fieldset name="advanced" >
-			<field	name="moduleclass_sfx"
+			<field name="moduleclass_sfx"
 				type="text"
 				label="Module Class Suffix"
 				description="MOD_THISWEEKSBIRTHDAYS_CLASS_SUFFIX"
 			/>
-			<field	name="pretext" 
+			<field name="pretext" 
 				type="textarea"
 				label="Pre Text"
 				description="MOD_THISWEEKSBIRTHDAYS_PRETEXT"
 				cols="30"
 				rows="5"
 			/>
-			<field	name="posttext"
+			<field name="posttext"
 				type="textarea"
 				label="Post Text"
-				description="MOD_THISWEEEKSBIRTHDAYS_POSTTEXT"
+				description="MOD_THISWEEKSBIRTHDAYS_POSTTEXT"
 				cols="30"
 				rows="5"
 			/>
-			<field	name="listtype"
+			<field name="listtype"
 				type="list"
 				default="0"
 				label="List Type"
@@ -66,27 +69,25 @@
 					<option value="0">Ticker</option>
 					<option value="1">List</option>
 			</field>
-			<field
-  				name="tickerscrollamount"
-    				type="text"
+			<field name="tickerscrollamount"
+				type="text"
 				default="5"
 				label="Ticker Speed"
-    				showon="listtype:0"
-				description="MOD_THISWEEKSBIRTHDAYS_TICKERSPEED"			
+				showon="listtype:0"
+				description="MOD_THISWEEKSBIRTHDAYS_TICKERSPEED"
 			/>
-
-		</fieldset>
-	</fields>
+        </fieldset>
+    </fields>
     </config>
-	
-<!-- configuration for update servers-->  	
+
+<!-- configuration for update servers-->
     <updateservers>
-			<server
-			type="extension"
-			priority="1"
-			name="This Weeks Birthdays module updates">
-			http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays.xml
-		</server>
+        <server
+            type="extension"
+            priority="1"
+            name="This Weeks Birthdays module updates">
+            http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays.xml
+        </server>
 
     </updateservers>
 </extension>

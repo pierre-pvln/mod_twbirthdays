@@ -37,6 +37,6 @@ defined('_JEXEC') or die;
  * Output depends if the layout has not been overridden or not. 
  * 
  */
-	require JModuleHelper::getLayoutpath('mod_twbirthdays', $layout);
+	require JModuleHelper::getLayoutpath('mod_thisweeksbirthdays', $layout);
 	
 ?>

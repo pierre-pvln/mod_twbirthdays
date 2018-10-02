@@ -5,6 +5,22 @@
 		<name>mod_thisweeksbirthdays</name>
 		<description>Module to show the birthday of members in the current week</description>
 		<maintainer>Pierre Veelen</maintainer>
+		<maintainerurl>https://www.pvln.nl</maintainerurl>
+		<element>mod_thisweeksbirthdays</element>
+		<type>module</type>
+		<client>0</client>
+		<version>1.0.4</version>
+		<infourl title="This Weeks Birthday module">https://www.pvln.nl/this-weeks-birthdays</infourl>
+		<downloads>
+			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays_v1.0.4.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3" />
+	</update>
+
+	<update>
+		<name>mod_thisweeksbirthdays</name>
+		<description>Module to show the birthday of members in the current week</description>
+		<maintainer>Pierre Veelen</maintainer>
 		<maintainerurl>http://www.pvln.nl</maintainerurl>
 		<element>mod_thisweeksbirthdays</element>
 		<type>module</type>
@@ -12,9 +28,9 @@
 		<version>1.0.3</version>
 		<infourl title="This Weeks Birthday module">http://www.pvln.nl/this-weeks-birthdays</infourl>
 		<downloads>
-			<downloadurl type="upgrade" format="zip">http://update.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays_v1.0.3.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">http://download.pvln.nl/joomla/modules/thisweeksbirthdays/mod_thisweeksbirthdays_v1.0.3.zip</downloadurl>
 		</downloads>
 		<targetplatform name="joomla" version="3" />
 	</update>
-			
+
 </updates>
